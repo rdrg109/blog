@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-18T23:26:32-05:00</updated><id>/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">Preguntas de usuarios principiantes de LaTeX</title><link href="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html" rel="alternate" type="text/html" title="Preguntas de usuarios principiantes de LaTeX" /><published>2021-06-19T00:00:00-05:00</published><updated>2021-06-19T00:00:00-05:00</updated><id>/2021/06/19/preguntas-de-usuarios-principiantes-de-latex</id><content type="html" xml:base="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-18T23:36:54-05:00</updated><id>/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">Preguntas de usuarios principiantes de LaTeX</title><link href="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html" rel="alternate" type="text/html" title="Preguntas de usuarios principiantes de LaTeX" /><published>2021-06-19T00:00:00-05:00</published><updated>2021-06-19T00:00:00-05:00</updated><id>/2021/06/19/preguntas-de-usuarios-principiantes-de-latex</id><content type="html" xml:base="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;&amp;Iacute;ndice&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
@@ -34,7 +34,7 @@
 &lt;h2 id=&quot;org722e3a7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introducción&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
-La última charla realizada por la rama estudiantil de ACM y IEEE Computer Society en UTEC fue una introducción a LaTeX.
+La última charla realizada por la rama estudiantil de ACM y &lt;a href=&quot;https://ieee-cs-utec.com/&quot;&gt;IEEE Computer Society&lt;/a&gt; en UTEC fue una introducción a LaTeX.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -76,7 +76,7 @@ Veamos un ejemplo simple: Supongamos que tienes el siguiente documento
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org14ce0dd&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org6f47c6a&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/1.png&quot; alt=&quot;1.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -101,7 +101,7 @@ Ahora supongamos que quieres tener mas secciones en tu tabla de contenidos. En e
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org0d5cd9f&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;orgac1c215&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/2.png&quot; alt=&quot;2.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -140,7 +140,7 @@ Ahora, veamos que ocurre cuando hacemos que el contenido de nuestro documento se
 &lt;/div&gt;
 
 
-&lt;div id=&quot;orge23971d&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org7fe339c&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/3.png&quot; alt=&quot;3.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -182,7 +182,7 @@ La tabla deber&amp;#237;a mostrarse despu&amp;#233;s de esta l&amp;#237;nea.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org95e63cf&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org3d95a6c&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/table-incorrect-position.png&quot; alt=&quot;table-incorrect-position.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -217,7 +217,7 @@ La tabla deber&amp;#237;a mostrarse despu&amp;#233;s de esta l&amp;#237;nea.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org8e28465&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;orgad71a78&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/table-correct-position.png&quot; alt=&quot;table-correct-position.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -262,7 +262,7 @@ Sí. Mostraré un ejemplo en donde utilizaremos una fuente cualquiera. En vez de
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org794db02&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org24f734a&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/6.png&quot; alt=&quot;6.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -329,7 +329,7 @@ La siguiente lista contiene las fuentes y la página donde las descargué.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;orgffdf666&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org5e39c97&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/4.png&quot; alt=&quot;4.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -404,7 +404,7 @@ Esto tambi&amp;#233;n es mencionado por &lt;span style=&quot;color: #a020f0;&quo
 &lt;/div&gt;
 
 
-&lt;div id=&quot;orgd93fe20&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;orge9a46df&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/5.png&quot; alt=&quot;5.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -442,7 +442,7 @@ Sí. Mira el ejemplo de abajo.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org8ca93c6&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org40c7ec6&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/8.png&quot; alt=&quot;8.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
