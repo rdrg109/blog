@@ -1,52 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-17T19:44:02-05:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/06/17/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-06-17T19:07:38-05:00</published><updated>2021-06-17T19:07:38-05:00</updated><id>/jekyll/update/2021/06/17/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/06/17/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Preguntas de usuarios principiantes de LaTeX</title><link href="/2021/06/14/preguntas-de-usuarios-principiantes-de-latex.html" rel="alternate" type="text/html" title="Preguntas de usuarios principiantes de LaTeX" /><published>2021-06-14T00:00:00-05:00</published><updated>2021-06-14T00:00:00-05:00</updated><id>/2021/06/14/preguntas-de-usuarios-principiantes-de-latex</id><content type="html" xml:base="/2021/06/14/preguntas-de-usuarios-principiantes-de-latex.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-18T23:18:15-05:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Preguntas de usuarios principiantes de LaTeX</title><link href="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html" rel="alternate" type="text/html" title="Preguntas de usuarios principiantes de LaTeX" /><published>2021-06-19T00:00:00-05:00</published><updated>2021-06-19T00:00:00-05:00</updated><id>/2021/06/19/preguntas-de-usuarios-principiantes-de-latex</id><content type="html" xml:base="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;&amp;Iacute;ndice&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbaa3886&quot;&gt;1. Introducción&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org9896aa7&quot;&gt;2. Preguntas que respondí&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org722e3a7&quot;&gt;1. Introducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgce8abae&quot;&gt;2. Preguntas que respondí&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org79160b5&quot;&gt;2.1. ¿Cómo puedo insertar nuevos elementos en mi tabla de contenidos o índice?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orga299494&quot;&gt;2.2. ¿Por qué mi tabla de contenido muestra a todos los elementos en la misma página?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbca92dd&quot;&gt;2.3. ¿Cómo puedo mover una tabla en la posición en la que está insertada en mi código?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org290f608&quot;&gt;2.1. ¿Cómo puedo insertar nuevos elementos en mi tabla de contenidos o índice?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org8ff2b03&quot;&gt;2.2. ¿Por qué mi tabla de contenido muestra a todos los elementos en la misma página?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgebeb355&quot;&gt;2.3. ¿Cómo puedo mover una tabla en la posición en la que está insertada en mi código?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org3992e33&quot;&gt;3. Preguntas que no respondí&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#orgbbf1011&quot;&gt;3. Preguntas que no respondí&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgcd69763&quot;&gt;3.1. ¿Puedo utilizar la fuente Arial en LaTeX?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org3218691&quot;&gt;3.2. ¿Puedo usar múltiples fuentes en un mismo documento?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgc02f93b&quot;&gt;3.3. ¿Cómo puedo manejar la bibliografía en LaTeX?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org4f07931&quot;&gt;3.4. ¿Es posible insertar puntos entre las secciones y su número de página en la tabla de contenidos?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org6c94644&quot;&gt;3.1. ¿Puedo utilizar la fuente Arial en LaTeX?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc2d091c&quot;&gt;3.2. ¿Puedo usar múltiples fuentes en un mismo documento?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org43fd99e&quot;&gt;3.3. ¿Cómo puedo manejar la bibliografía en LaTeX?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org50e27c2&quot;&gt;3.4. ¿Es posible insertar puntos entre las secciones y su número de página en la tabla de contenidos?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org8a3803e&quot;&gt;4. Recursos que prometí compartir&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org94943b2&quot;&gt;4. Recursos que prometí compartir&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org830d666&quot;&gt;4.1. Diapositiva que muestra varios de los usos de LaTeX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org5338432&quot;&gt;4.2. Página con ejemplos de LaTeX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org2be760d&quot;&gt;4.3. Foro de Stack Exchange sobre TeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgb879297&quot;&gt;4.1. Diapositiva que muestra varios de los usos de LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org702b921&quot;&gt;4.2. Página con ejemplos de LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org0f422c9&quot;&gt;4.3. Foro de Stack Exchange sobre TeX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgf9ecd33&quot;&gt;5. Nota adicional&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgbaa3886&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbaa3886&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introducción&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org722e3a7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org722e3a7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introducción&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 La última charla realizada por la rama estudiantil de ACM y IEEE Computer Society en UTEC fue una introducción a LaTeX.
@@ -58,16 +43,16 @@ En una parte de la charla, creamos &lt;i&gt;breakout rooms&lt;/i&gt; para que lo
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org9896aa7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org9896aa7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Preguntas que respondí&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgce8abae&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgce8abae&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Preguntas que respondí&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Estas fueron algunas preguntas que respondí, pero siento que no fui muy claro, así que daré mayores detalles.
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org79160b5&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org79160b5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; ¿Cómo puedo insertar nuevos elementos en mi tabla de contenidos o índice?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org290f608&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org290f608&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; ¿Cómo puedo insertar nuevos elementos en mi tabla de contenidos o índice?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;p&gt;
 Hay algo que debemos dejar bien en claro: En LaTeX, tú no necesitas actualizar la tabla de contenidos. Esta se actualiza automáticamente conforme vas insertando nuevas secciones (&lt;code&gt;\section{}&lt;/code&gt;), subsecciones (&lt;code&gt;\subsection&lt;/code&gt;) o subsubsecciones (&lt;code&gt;\subsubsection&lt;/code&gt;).
@@ -78,20 +63,20 @@ Veamos un ejemplo simple: Supongamos que tienes el siguiente documento
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\tableofcontents&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\tableofcontents&lt;/span&gt;
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi primera secci&amp;#243;n&lt;/span&gt;} Mi primer p&amp;#225;rrafo.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi primera secci&amp;#243;n&lt;/span&gt;} Mi primer p&amp;#225;rrafo.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
 &lt;/div&gt;
 
 
-&lt;div id=&quot;orgfa22b20&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org14ce0dd&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/1.png&quot; alt=&quot;1.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
@@ -101,30 +86,30 @@ Ahora supongamos que quieres tener mas secciones en tu tabla de contenidos. En e
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\tableofcontents&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\tableofcontents&lt;/span&gt;
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi primera secci&amp;#243;n&lt;/span&gt;} Mi primer p&amp;#225;rrafo.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi segunda secci&amp;#243;n&lt;/span&gt;} Mi segundo p&amp;#225;rrafo.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi tercera secci&amp;#243;n&lt;/span&gt;} Mi tercer p&amp;#225;rrafo.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi primera secci&amp;#243;n&lt;/span&gt;} Mi primer p&amp;#225;rrafo.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi segunda secci&amp;#243;n&lt;/span&gt;} Mi segundo p&amp;#225;rrafo.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi tercera secci&amp;#243;n&lt;/span&gt;} Mi tercer p&amp;#225;rrafo.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org35dcb8b&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;org0d5cd9f&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/2.png&quot; alt=&quot;2.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orga299494&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orga299494&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; ¿Por qué mi tabla de contenido muestra a todos los elementos en la misma página?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org8ff2b03&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org8ff2b03&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; ¿Por qué mi tabla de contenido muestra a todos los elementos en la misma página?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;p&gt;
 Esto ocurre por la misma razón que todos los elementos de tu documento se encuentran en la misma página.
@@ -140,26 +125,25 @@ Ahora, veamos que ocurre cuando hacemos que el contenido de nuestro documento se
 
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\tableofcontents&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\tableofcontents&lt;/span&gt;
 
-&lt;span style=&quot;color: #dbbe5f;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi primera secci&amp;#243;n&lt;/span&gt;} Mi primer p&amp;#225;rrafo.
-&lt;span style=&quot;color: #dbbe5f;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi segunda secci&amp;#243;n&lt;/span&gt;} Mi segundo p&amp;#225;rrafo.
-&lt;span style=&quot;color: #dbbe5f;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi tercera secci&amp;#243;n&lt;/span&gt;} Mi tercer p&amp;#225;rrafo.
+&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi primera secci&amp;#243;n&lt;/span&gt;} Mi primer p&amp;#225;rrafo.
+&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi segunda secci&amp;#243;n&lt;/span&gt;} Mi segundo p&amp;#225;rrafo.
+&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi tercera secci&amp;#243;n&lt;/span&gt;} Mi tercer p&amp;#225;rrafo.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org5c51cd6&quot; class=&quot;figure&quot;&gt;
+&lt;div id=&quot;orge23971d&quot; class=&quot;figure&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/3.png&quot; alt=&quot;3.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;
 Como pudimos ver, la tabla de contenidos se actualizó automáticamente. Esto quiere decir que nos hemos quitado un trabajo repetitivo de encima.
@@ -167,34 +151,40 @@ Como pudimos ver, la tabla de contenidos se actualizó automáticamente. Esto qu
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgbca92dd&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgbca92dd&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; ¿Cómo puedo mover una tabla en la posición en la que está insertada en mi código?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgebeb355&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgebeb355&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; ¿Cómo puedo mover una tabla en la posición en la que está insertada en mi código?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;p&gt;
-Esta pregunta la hicieron porque cuando uno de los asistentes insertó una tabla, aparecería en la misma imagen.
+Esta pregunta la hicieron porque cuando uno de los asistentes insertó una tabla, no aparecía en la misma posición donde le había especificado. Por ejemplo, en el siguiente documento, la tabla no es mostrada entre las dos líneas escritas (como podemos ver en la imagen)
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
 La tabla deber&amp;#237;a mostrarse abajo de esta l&amp;#237;nea.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;table&lt;/span&gt;}
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\centering&lt;/span&gt;
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;tabular&lt;/span&gt;}{|c|c|}
-       &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\hline&lt;/span&gt; 1 &amp;amp; 2
-    &lt;span style=&quot;color: #dbbe5f;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\hline&lt;/span&gt; 3 &amp;amp; 4
-    &lt;span style=&quot;color: #dbbe5f;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\hline&lt;/span&gt;
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;tabular&lt;/span&gt;}
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\caption&lt;/span&gt;{Mi tabla}
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;table&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;table&lt;/span&gt;}
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\centering&lt;/span&gt;
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;tabular&lt;/span&gt;}{|c|c|}
+       &lt;span style=&quot;color: #a020f0;&quot;&gt;\hline&lt;/span&gt; 1 &amp;amp; 2
+    &lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\hline&lt;/span&gt; 3 &amp;amp; 4
+    &lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\hline&lt;/span&gt;
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;tabular&lt;/span&gt;}
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\caption&lt;/span&gt;{Mi tabla}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;table&lt;/span&gt;}
 
 La tabla deber&amp;#237;a mostrarse despu&amp;#233;s de esta l&amp;#237;nea.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;div id=&quot;org95e63cf&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/table-incorrect-position.png&quot; alt=&quot;table-incorrect-position.png&quot; /&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -202,28 +192,34 @@ Para esto, es necesario cargar el paquete &lt;code&gt;float&lt;/code&gt; y utili
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;float&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;float&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
 La tabla deber&amp;#237;a mostrarse abajo de esta l&amp;#237;nea.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;table&lt;/span&gt;}[H]
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\centering&lt;/span&gt;
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;tabular&lt;/span&gt;}{|c|c|}
-       &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\hline&lt;/span&gt; 1 &amp;amp; 2
-    &lt;span style=&quot;color: #dbbe5f;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\hline&lt;/span&gt; 3 &amp;amp; 4
-    &lt;span style=&quot;color: #dbbe5f;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\hline&lt;/span&gt;
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;tabular&lt;/span&gt;}
-  &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\caption&lt;/span&gt;{Mi tabla}
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;table&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;table&lt;/span&gt;}[H]
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\centering&lt;/span&gt;
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;tabular&lt;/span&gt;}{|c|c|}
+       &lt;span style=&quot;color: #a020f0;&quot;&gt;\hline&lt;/span&gt; 1 &amp;amp; 2
+    &lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\hline&lt;/span&gt; 3 &amp;amp; 4
+    &lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\\&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\hline&lt;/span&gt;
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;tabular&lt;/span&gt;}
+  &lt;span style=&quot;color: #a020f0;&quot;&gt;\caption&lt;/span&gt;{Mi tabla}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;table&lt;/span&gt;}
 
 La tabla deber&amp;#237;a mostrarse despu&amp;#233;s de esta l&amp;#237;nea.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;div id=&quot;org8e28465&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/table-correct-position.png&quot; alt=&quot;table-correct-position.png&quot; /&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -233,36 +229,42 @@ Este paquete permite hacer lo mismo con las imágenes insertadas en tu documento
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org3992e33&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3992e33&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Preguntas que no respondí&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgbbf1011&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgbbf1011&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Preguntas que no respondí&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 Esta sección lista las preguntas que no respondí y prometí responder.
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgcd69763&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgcd69763&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; ¿Puedo utilizar la fuente Arial en LaTeX?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org6c94644&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org6c94644&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; ¿Puedo utilizar la fuente Arial en LaTeX?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
 &lt;p&gt;
 Sí. Mostraré un ejemplo en donde utilizaremos una fuente cualquiera. En vez de utilizar Arial, utilizaré la fuente &lt;a href=&quot;http://gidole.github.io/&quot;&gt;Gidole&lt;/a&gt;, una fuente gratis. La puedes descargar desde su &lt;a href=&quot;https://github.com/larsenwork/Gidole/blob/master/Resources/GidoleFont/Gidole-Regular.ttf&quot;&gt;repositorio&lt;/a&gt; en Github.
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;fontspec&lt;/span&gt;}
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\setmainfont&lt;/span&gt;{Gidole-Regular.ttf}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;fontspec&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\setmainfont&lt;/span&gt;{Gidole-Regular.ttf}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi subsecci&amp;#243;n&lt;/span&gt;} Esta es otra l&amp;#237;nea.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi otra secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi otra subsecci&amp;#243;n&lt;/span&gt;} Esta es otra l&amp;#237;nea.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi subsecci&amp;#243;n&lt;/span&gt;} Esta es otra l&amp;#237;nea.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi otra secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi otra subsecci&amp;#243;n&lt;/span&gt;} Esta es otra l&amp;#237;nea.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;div id=&quot;org794db02&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/6.png&quot; alt=&quot;6.png&quot; /&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -275,7 +277,7 @@ Hay algunas cosas que tenemos que dejar en claro, para que el ejemplo de arriba 
 
 &lt;ol class=&quot;org-ol&quot;&gt;
 &lt;li&gt;El archivo &lt;code&gt;Gidole-Regular.ttf&lt;/code&gt; debe estar ubicado en el mismo directorio que nuestro archivo &lt;code&gt;.tex&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Debemos utilizar los compiladores &lt;code&gt;xelatex&lt;/code&gt; o &lt;code&gt;lualatex&lt;/code&gt;. En términos básicos, estos compiladores son variantes de LaTeX que añaden características útiles como, por ejemplo, utilizar cualquier fuente en un documento fácilmente. Overleaf tiene la opción de escoger el compilador. Es decir, puedes seleccionar &lt;code&gt;xelatex&lt;/code&gt; o &lt;code&gt;lualatex&lt;/code&gt;, en vez de &lt;code&gt;pdflatex&lt;/code&gt; que es el que Overleaf utiliza por defecto.&lt;/li&gt;
+&lt;li&gt;Debemos utilizar los compiladores &lt;code&gt;xelatex&lt;/code&gt; o &lt;code&gt;lualatex&lt;/code&gt;. En términos básicos, estos compiladores son variantes de LaTeX que añaden características útiles como, por ejemplo, utilizar cualquier fuente en un documento fácilmente. Si eres de los usuarios que prefiere trabajar en Overleaf, te interesará saber que Overleaf también permite escoger el compilador. Es decir, puedes seleccionar &lt;code&gt;xelatex&lt;/code&gt; o &lt;code&gt;lualatex&lt;/code&gt;, en vez de &lt;code&gt;pdflatex&lt;/code&gt; que es el que Overleaf utiliza por defecto.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;
@@ -289,8 +291,8 @@ Debido que yo tengo XeLaTeX en mi sistema y mi archivo &lt;code&gt;.tex&lt;/code
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org3218691&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org3218691&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; ¿Puedo usar múltiples fuentes en un mismo documento?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgc2d091c&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgc2d091c&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; ¿Puedo usar múltiples fuentes en un mismo documento?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
 &lt;p&gt;
 Sí, de la misma manera como lo hicimos anteriormente.
@@ -311,19 +313,25 @@ La siguiente lista contiene las fuentes y la página donde las descargué.
 &lt;/ul&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;fontspec&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;fontspec&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\setmainfont&lt;/span&gt;{IBMPlexSerif-Regular.ttf} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\setmainfont&lt;/span&gt;{Jost-400-Book.ttf} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\setmainfont&lt;/span&gt;{overpass-regular.otf} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea con la fuente usada por defecto.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\setmainfont&lt;/span&gt;{IBMPlexSerif-Regular.ttf} &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea con la fuente IBM Plex.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\setmainfont&lt;/span&gt;{Jost-400-Book.ttf} &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea con la fuente Jost.
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\setmainfont&lt;/span&gt;{overpass-regular.otf} &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;Mi secci&amp;#243;n&lt;/span&gt;} Esta es una l&amp;#237;nea con la fuente Overpass.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;div id=&quot;orgffdf666&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/4.png&quot; alt=&quot;4.png&quot; /&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -331,13 +339,13 @@ Como pudimos ver, solo basta especificar la fuente con &lt;code&gt;\setmainfont{
 &lt;/p&gt;
 
 &lt;p&gt;
-Algo que también pueden rescatar de acá es que, nuestro documento separa las secciones y los párrafos aún cuando hemos puesto &lt;code&gt;\section{...}&lt;/code&gt; y &lt;code&gt;Esta es una línea&lt;/code&gt; en una misma línea.
+Algo que también podemos rescatar de este ejemplo es que LaTeX separa las secciones y los párrafos aún cuando hemos puesto &lt;code&gt;\section{...}&lt;/code&gt; y &lt;code&gt;Esta es una línea&lt;/code&gt; en una misma línea. De hecho, es posible tener todo un documento en una sola línea de código.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgc02f93b&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgc02f93b&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.3&lt;/span&gt; ¿Cómo puedo manejar la bibliografía en LaTeX?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org43fd99e&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org43fd99e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.3&lt;/span&gt; ¿Cómo puedo manejar la bibliografía en LaTeX?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-3&quot;&gt;
 &lt;p&gt;
 Hay muchas maneras, pero presentaré la que es más flexible y, recomiendo utilizar, en la mayoría de los casos.
@@ -352,79 +360,96 @@ Este archivo &lt;code&gt;.bib&lt;/code&gt;, contendría todas nuestras entradas 
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-bibtex&quot;&gt;&lt;span style=&quot;color: #feacd0;&quot;&gt;@book&lt;/span&gt;{&lt;span style=&quot;color: #00bcff;&quot;&gt;MiAliasParaStewart&lt;/span&gt;,
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;author&lt;/span&gt; = {Stewart, James},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;title&lt;/span&gt; = {C&amp;#225;lculo de varias variables},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;subtitle&lt;/span&gt; = {Trascendentes tempranas},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;edition&lt;/span&gt; = {7},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;publisher&lt;/span&gt; = {Cengage Learning},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;year&lt;/span&gt; = {2012},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;isbn&lt;/span&gt; = {9786074818987}
+&lt;pre class=&quot;src src-bibtex&quot;&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;@book&lt;/span&gt;{&lt;span style=&quot;color: #008b8b;&quot;&gt;MiAliasParaStewart&lt;/span&gt;,
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;author&lt;/span&gt; = {Stewart, James},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;title&lt;/span&gt; = {C&amp;#225;lculo de varias variables},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;subtitle&lt;/span&gt; = {Trascendentes tempranas},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;edition&lt;/span&gt; = {7},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;publisher&lt;/span&gt; = {Cengage Learning},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;year&lt;/span&gt; = {2012},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;isbn&lt;/span&gt; = {9786074818987}
 }
 
-&lt;span style=&quot;color: #feacd0;&quot;&gt;@book&lt;/span&gt;{&lt;span style=&quot;color: #00bcff;&quot;&gt;MiAliasParaCormen&lt;/span&gt;,
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;author&lt;/span&gt; = {Cormen, Thomas},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;title&lt;/span&gt; = {Introduction to algorithms},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;publisher&lt;/span&gt; = {MIT Press McGraw-Hill},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;year&lt;/span&gt; = {1990},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;address&lt;/span&gt; = {Cambridge, Mass. New York},
-  &lt;span style=&quot;color: #00d3d0;&quot;&gt;isbn&lt;/span&gt; = {9780070131439}
+&lt;span style=&quot;color: #0000ff;&quot;&gt;@book&lt;/span&gt;{&lt;span style=&quot;color: #008b8b;&quot;&gt;MiAliasParaCormen&lt;/span&gt;,
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;author&lt;/span&gt; = {Cormen, Thomas},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;title&lt;/span&gt; = {Introduction to algorithms},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;publisher&lt;/span&gt; = {MIT Press McGraw-Hill},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;year&lt;/span&gt; = {1990},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;address&lt;/span&gt; = {Cambridge, Mass. New York},
+  &lt;span style=&quot;color: #a0522d;&quot;&gt;isbn&lt;/span&gt; = {9780070131439}
 }
 &lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
-En nuestro archivo &lt;code&gt;.tex&lt;/code&gt;, tenemos que especificar en donde estan las definiciones de nuestras referencias. En mi caso, yo lo he ubicado en &lt;code&gt;references.bib&lt;/code&gt;, por eso le paso este nombre a &lt;code&gt;\addbibresource{...}&lt;/code&gt;.
+En nuestro archivo &lt;code&gt;.tex&lt;/code&gt;, tenemos que especificar en donde estan las definiciones de nuestras referencias. En mi caso, yo he nombrado ese archivo como &lt;code&gt;references.bib&lt;/code&gt;, por eso le paso este nombre a &lt;code&gt;\addbibresource{...}&lt;/code&gt;.
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;biblatex&lt;/span&gt;}
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\addbibresource&lt;/span&gt;{references.bib}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;biblatex&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\addbibresource&lt;/span&gt;{references.bib}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
-Como menciona &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\cite&lt;/span&gt;{&lt;span style=&quot;color: #00bcff;&quot;&gt;MiAliasParaStewart&lt;/span&gt;}, es necesario hacer eso.
+Como menciona &lt;span style=&quot;color: #a020f0;&quot;&gt;\cite&lt;/span&gt;{&lt;span style=&quot;color: #008b8b;&quot;&gt;MiAliasParaStewart&lt;/span&gt;}, es necesario hacer eso.
 
-Esto tambi&amp;#233;n es mencioando por &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\cite&lt;/span&gt;{&lt;span style=&quot;color: #00bcff;&quot;&gt;MiAliasParaCormen&lt;/span&gt;}.
+Esto tambi&amp;#233;n es mencionado por &lt;span style=&quot;color: #a020f0;&quot;&gt;\cite&lt;/span&gt;{&lt;span style=&quot;color: #008b8b;&quot;&gt;MiAliasParaCormen&lt;/span&gt;}.
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\printbibliography&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\printbibliography&lt;/span&gt;
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
 &lt;/div&gt;
 
+
+&lt;div id=&quot;orgd93fe20&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/5.png&quot; alt=&quot;5.png&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+
 &lt;p&gt;
-Si estas interesado en conocer las otras maneras de como hacer esto, recomiendo leer &lt;a href=&quot;https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX&quot;&gt;este&lt;/a&gt; artículo.
+Si estas interesado en conocer las otras maneras de como insertar bibliografía en LaTeX, recomiendo leer &lt;a href=&quot;https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX&quot;&gt;este&lt;/a&gt; artículo. Cada una de esas maneras tiene sus ventajas y desventajas. Por ejemplo, algunas personas recomiendan hacer la manera que he mostrado solo con proyectos muy largos porque, para ellos, el trabajo es mayor. Sin embargo, yo no estoy de acuerdo con eso, y por eso suelo utilizar esta manera casi siempre.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org4f07931&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org4f07931&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.4&lt;/span&gt; ¿Es posible insertar puntos entre las secciones y su número de página en la tabla de contenidos?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org50e27c2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org50e27c2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.4&lt;/span&gt; ¿Es posible insertar puntos entre las secciones y su número de página en la tabla de contenidos?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-4&quot;&gt;
 &lt;p&gt;
 Sí. Mira el ejemplo de abajo.
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;article&lt;/span&gt;}
+&lt;pre class=&quot;src src-latex-doc&quot;&gt;&lt;span style=&quot;color: #a020f0;&quot;&gt;\documentclass&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;article&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #f78fe7;&quot;&gt;tocloft&lt;/span&gt;}
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\renewcommand&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;\cftsecleader&lt;/span&gt;}{&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\cftdotfill&lt;/span&gt;{&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\cftdotsep&lt;/span&gt;}}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\usepackage&lt;/span&gt;{&lt;span style=&quot;color: #483d8b;&quot;&gt;tocloft&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\renewcommand&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;\cftsecleader&lt;/span&gt;}{&lt;span style=&quot;color: #a020f0;&quot;&gt;\cftdotfill&lt;/span&gt;{&lt;span style=&quot;color: #a020f0;&quot;&gt;\cftdotsep&lt;/span&gt;}}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\begin&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\tableofcontents&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\tableofcontents&lt;/span&gt;
 
-&lt;span style=&quot;color: #dbbe5f;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;foo&lt;/span&gt;} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;foo one&lt;/span&gt;} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsubsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;foo one one&lt;/span&gt;}
-&lt;span style=&quot;color: #dbbe5f;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;bar&lt;/span&gt;} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;bar one&lt;/span&gt;} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsubsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;bar one one&lt;/span&gt;}
-&lt;span style=&quot;color: #dbbe5f;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;fizz&lt;/span&gt;} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;fizz one&lt;/span&gt;} &lt;span style=&quot;color: #b6a0ff;&quot;&gt;\subsubsection&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;fizz one one&lt;/span&gt;}
+&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;foo&lt;/span&gt;} &lt;span style=&quot;color: #a020f0;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;foo one&lt;/span&gt;} &lt;span style=&quot;color: #a020f0;&quot;&gt;\subsubsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;foo one one&lt;/span&gt;}
+&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;bar&lt;/span&gt;} &lt;span style=&quot;color: #a020f0;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;bar one&lt;/span&gt;} &lt;span style=&quot;color: #a020f0;&quot;&gt;\subsubsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;bar one one&lt;/span&gt;}
+&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;\clearpage&lt;/span&gt; &lt;span style=&quot;color: #a020f0;&quot;&gt;\section&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;fizz&lt;/span&gt;} &lt;span style=&quot;color: #a020f0;&quot;&gt;\subsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;fizz one&lt;/span&gt;} &lt;span style=&quot;color: #a020f0;&quot;&gt;\subsubsection&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;fizz one one&lt;/span&gt;}
 
-&lt;span style=&quot;color: #b6a0ff;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #feacd0;&quot;&gt;document&lt;/span&gt;}
+&lt;span style=&quot;color: #a020f0;&quot;&gt;\end&lt;/span&gt;{&lt;span style=&quot;color: #0000ff;&quot;&gt;document&lt;/span&gt;}
 &lt;/pre&gt;
 &lt;/div&gt;
+
+
+&lt;div id=&quot;org8ca93c6&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/8.png&quot; alt=&quot;8.png&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Con este ejemplo, nos podemos ir dando cuenta de lo extensible que es LaTeX. La extensibilidad es importante porque permite que cubra varias necesidades que podamos tener.
+&lt;/p&gt;
 
 &lt;p&gt;
 No me acordaba como hacer esto, pero teniendo en cuenta lo extensible que es LaTeX, estaba muy seguro que era posible hacerlo. Busqué &lt;a href=&quot;https://duckduckgo.com/?q=latex+sections+lines+table+of+contents&amp;amp;t=ffab&amp;amp;ia=web&quot;&gt;&lt;code&gt;latex sections lines table of contents&lt;/code&gt; en DuckDuckGo&lt;/a&gt; y encontré &lt;a href=&quot;https://tex.stackexchange.com/questions/53898/how-to-get-lines-with-dots-in-the-table-of-contents-for-sections&quot;&gt;esta&lt;/a&gt; pregunta en TeX Stack Exchange, y &lt;a href=&quot;https://tex.stackexchange.com/a/53901&quot;&gt;esta&lt;/a&gt; es la respuesta en esa pregunta de donde obtuve el comando que logra esto.
@@ -433,12 +458,12 @@ No me acordaba como hacer esto, pero teniendo en cuenta lo extensible que es LaT
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org8a3803e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org8a3803e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Recursos que prometí compartir&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org94943b2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org94943b2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Recursos que prometí compartir&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org830d666&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org830d666&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.1&lt;/span&gt; Diapositiva que muestra varios de los usos de LaTeX&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgb879297&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgb879297&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.1&lt;/span&gt; Diapositiva que muestra varios de los usos de LaTeX&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-1&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.overleaf.com/articles/latex-more-than-just-academic-papers-and-theses/cyfvvyfrpmyn&quot;&gt;Esta&lt;/a&gt; presentación fue escrita en LaTeX y muestra muchos de los usos de LaTeX: desde publicaciones científicas, exámenes, documentos multilingüisticos hasta partituras, circuitos, códigos de barra y juegos de mesa.
@@ -450,8 +475,8 @@ Cuando vi esta presentación por primera vez, entendí la extensa capacidad de L
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org5338432&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org5338432&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.2&lt;/span&gt; Página con ejemplos de LaTeX&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org702b921&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org702b921&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.2&lt;/span&gt; Página con ejemplos de LaTeX&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-2&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.overleaf.com/gallery&quot;&gt;Esta&lt;/a&gt; página es la galería de Overleaf donde se listan los documentos y plantillas creadas por múltiples personas. Lo bueno de esta página es que las plantillas y ejemplo se encuentran categorizadas. Algunas categorías en esa galería que me parecen interesantes son
@@ -465,8 +490,8 @@ Cuando vi esta presentación por primera vez, entendí la extensa capacidad de L
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org2be760d&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org2be760d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.3&lt;/span&gt; Foro de Stack Exchange sobre TeX&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org0f422c9&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org0f422c9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.3&lt;/span&gt; Foro de Stack Exchange sobre TeX&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-3&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://tex.stackexchange.com/&quot;&gt;Este&lt;/a&gt; es un foro perteneciente a la empresa Stack Exchange. Esta página la pueden utilizar para hacer preguntas. En algunas oportunidades, he hecho algunas preguntas (como pueden ver en mi &lt;a href=&quot;https://tex.stackexchange.com/users/224170/rodrigo-morales?tab=questions&quot;&gt;perfil&lt;/a&gt;) y he sido ayudado.
@@ -477,4 +502,19 @@ También puede ser utilizado para encontrar contenido interesante. Por ejemplo, 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="spanish" /><category term="latex" /><summary type="html">&amp;Iacute;ndice 1. Introducción 2. Preguntas que respondí 2.1. ¿Cómo puedo insertar nuevos elementos en mi tabla de contenidos o índice? 2.2. ¿Por qué mi tabla de contenido muestra a todos los elementos en la misma página? 2.3. ¿Cómo puedo mover una tabla en la posición en la que está insertada en mi código? 3. Preguntas que no respondí 3.1. ¿Puedo utilizar la fuente Arial en LaTeX? 3.2. ¿Puedo usar múltiples fuentes en un mismo documento? 3.3. ¿Cómo puedo manejar la bibliografía en LaTeX? 3.4. ¿Es posible insertar puntos entre las secciones y su número de página en la tabla de contenidos? 4. Recursos que prometí compartir 4.1. Diapositiva que muestra varios de los usos de LaTeX 4.2. Página con ejemplos de LaTeX 4.3. Foro de Stack Exchange sobre TeX</summary></entry></feed>
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgf9ecd33&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf9ecd33&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Nota adicional&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+&lt;p&gt;
+Recién he empezado este blog. Si has encontrado algo que piensas podría mejorar, realmente apreciaría que me lo digas. Puedes contactarme por
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;IRC: En el servidor de Libera Chat con el nick &lt;code&gt;rdrg109&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Matrix: &lt;code&gt;@rdrg109:matrix.org&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Correo electrónico: &lt;code&gt;rodrigo.morales@utec.edu.pe&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="spanish" /><category term="latex" /><summary type="html">&amp;Iacute;ndice 1. Introducción 2. Preguntas que respondí 2.1. ¿Cómo puedo insertar nuevos elementos en mi tabla de contenidos o índice? 2.2. ¿Por qué mi tabla de contenido muestra a todos los elementos en la misma página? 2.3. ¿Cómo puedo mover una tabla en la posición en la que está insertada en mi código? 3. Preguntas que no respondí 3.1. ¿Puedo utilizar la fuente Arial en LaTeX? 3.2. ¿Puedo usar múltiples fuentes en un mismo documento? 3.3. ¿Cómo puedo manejar la bibliografía en LaTeX? 3.4. ¿Es posible insertar puntos entre las secciones y su número de página en la tabla de contenidos? 4. Recursos que prometí compartir 4.1. Diapositiva que muestra varios de los usos de LaTeX 4.2. Página con ejemplos de LaTeX 4.3. Foro de Stack Exchange sobre TeX 5. Nota adicional</summary></entry></feed>
