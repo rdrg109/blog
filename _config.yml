@@ -21,8 +21,8 @@
 title: Rodrigo Morales
 email: rodrigo.morales@utec.edu.pe
 description: Personal site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "blog" # the subpath of your site, e.g. /blog
+url: "https://rdrg109.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
