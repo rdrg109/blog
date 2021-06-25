@@ -1,0 +1,103 @@
+---
+layout: post
+title: How to use a sexp in the default header arguments of a language in Org Mode
+tags: [english, intermediate, org mode, emacs]
+---
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org255a08c">1. Some terminology</a></li>
+<li><a href="#org12bac2e">2. The problem</a></li>
+<li><a href="#org8467dd5">3. The solution</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org255a08c" class="outline-2">
+<h2 id="org255a08c"><span class="section-number-2">1</span> Some terminology</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+If you don't know what a sexp is. I encourage you to read the "Intro eval" section of the Elisp manual. Here's the relevant part that defines the term "sexp".
+</p>
+
+<blockquote>
+<p>
+    A Lisp object that is intended for evaluation is called a “form” or
+“expression”(1).  The fact that forms are data objects and not merely
+text is one of the fundamental differences between Lisp-like languages
+and typical programming languages.  Any object can be evaluated, but in
+practice only numbers, symbols, lists and strings are evaluated very
+often.
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+-----&#x2013;&#x2014; Footnotes -----&#x2013;&#x2014;
+</p>
+
+<p>
+   (1) It is sometimes also referred to as an “S-expression” or “sexp”,
+but we generally do not use this terminology in this manual.
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-org12bac2e" class="outline-2">
+<h2 id="org12bac2e"><span class="section-number-2">2</span> The problem</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Let's suppose you want to make all <code>#+BEGIN_SRC</code> code blocks whose language is <code>text</code> to contain a timestamp. Some users might think that this can be accomplished by executing the following.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp">(<span style="color: #a020f0;">setq</span> org-babel-default-header-args:text
+      '((<span style="color: #483d8b;">:prologue</span> . <span style="color: #8b2252;">"(format-time-string \"%m/%d/%Y %H:%M:%S %Z\")"</span>)))
+</pre>
+</div>
+
+<p>
+The problem with this is that the sexp wouldn't be evaluated when the <code>text</code> code block is expanded. That is, you would end up with the string <code>"(format-time-string \"%m/%d/%Y %H:%M:%S %Z\")"</code> as the prologue of the code block.
+</p>
+
+<p>
+Some other users might think that this can be accomplished by executing the following.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp">(<span style="color: #a020f0;">setq</span> org-babel-default-header-args:text
+      `((<span style="color: #483d8b;">:prologue</span> . ,(format-time-string <span style="color: #8b2252;">"%m/%d/%Y %H:%M:%S %Z"</span>))))
+</pre>
+</div>
+
+<p>
+The problem with this is that the expression would be evaluated once and this would occur when evaluating the <code>setq</code> expression. For this reason, this doesn't do what we are looking for.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8467dd5" class="outline-2">
+<h2 id="org8467dd5"><span class="section-number-2">3</span> The solution</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+You can get the desired behavior by modifying the value of the <code>org-keyword-properties</code> variable.
+</p>
+
+<p>
+This variable is the one that is automatically updated with the values of the <code>#+PROPERTY</code> affiliated keyword whenever an Org Mode file is opened.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp">(<span style="color: #a020f0;">setq</span> org-keyword-properties
+      '((<span style="color: #8b2252;">"HEADER-ARGS:TEXT"</span> . <span style="color: #8b2252;">":prologue (format-time-string \"%m/%d/%Y %H:%M:%S %Z\")"</span>)))
+</pre>
+</div>
+
+<p>
+Of course, this needs more tinkering since if you use <code>setq</code> on that variable, you would lose the previous content of the variable. Recall that this variable holds all the properties that has been set through the <code>#+PROPERTY</code> affiliated keyword and is locally set whenever an Org Mode file is opened, so an appropiate modification of that variable is needed.
+</p>
+</div>
+</div>

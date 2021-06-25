@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-18T23:36:54-05:00</updated><id>/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">Preguntas de usuarios principiantes de LaTeX</title><link href="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html" rel="alternate" type="text/html" title="Preguntas de usuarios principiantes de LaTeX" /><published>2021-06-19T00:00:00-05:00</published><updated>2021-06-19T00:00:00-05:00</updated><id>/2021/06/19/preguntas-de-usuarios-principiantes-de-latex</id><content type="html" xml:base="/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://rdrg109.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rdrg109.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-06-24T19:33:45-05:00</updated><id>https://rdrg109.github.io/blog/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">How to use a sexp in the default header arguments of a language in Org Mode</title><link href="https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode.html" rel="alternate" type="text/html" title="How to use a sexp in the default header arguments of a language in Org Mode" /><published>2021-06-24T00:00:00-05:00</published><updated>2021-06-24T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id=&quot;text-table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org255a08c&quot;&gt;1. Some terminology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org12bac2e&quot;&gt;2. The problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org8467dd5&quot;&gt;3. The solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org255a08c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org255a08c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Some terminology&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+If you don&apos;t know what a sexp is. I encourage you to read the &quot;Intro eval&quot; section of the Elisp manual. Here&apos;s the relevant part that defines the term &quot;sexp&quot;.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+    A Lisp object that is intended for evaluation is called a “form” or
+“expression”(1).  The fact that forms are data objects and not merely
+text is one of the fundamental differences between Lisp-like languages
+and typical programming languages.  Any object can be evaluated, but in
+practice only numbers, symbols, lists and strings are evaluated very
+often.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+-----&amp;#x2013;&amp;#x2014; Footnotes -----&amp;#x2013;&amp;#x2014;
+&lt;/p&gt;
+
+&lt;p&gt;
+   (1) It is sometimes also referred to as an “S-expression” or “sexp”,
+but we generally do not use this terminology in this manual.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org12bac2e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org12bac2e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; The problem&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;p&gt;
+Let&apos;s suppose you want to make all &lt;code&gt;#+BEGIN_SRC&lt;/code&gt; code blocks whose language is &lt;code&gt;text&lt;/code&gt; to contain a timestamp. Some users might think that this can be accomplished by executing the following.
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-elisp&quot;&gt;(&lt;span style=&quot;color: #a020f0;&quot;&gt;setq&lt;/span&gt; org-babel-default-header-args:text
+      &apos;((&lt;span style=&quot;color: #483d8b;&quot;&gt;:prologue&lt;/span&gt; . &lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;(format-time-string \&quot;%m/%d/%Y %H:%M:%S %Z\&quot;)&quot;&lt;/span&gt;)))
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+The problem with this is that the sexp wouldn&apos;t be evaluated when the &lt;code&gt;text&lt;/code&gt; code block is expanded. That is, you would end up with the string &lt;code&gt;&quot;(format-time-string \&quot;%m/%d/%Y %H:%M:%S %Z\&quot;)&quot;&lt;/code&gt; as the prologue of the code block.
+&lt;/p&gt;
+
+&lt;p&gt;
+Some other users might think that this can be accomplished by executing the following.
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-elisp&quot;&gt;(&lt;span style=&quot;color: #a020f0;&quot;&gt;setq&lt;/span&gt; org-babel-default-header-args:text
+      `((&lt;span style=&quot;color: #483d8b;&quot;&gt;:prologue&lt;/span&gt; . ,(format-time-string &lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;%m/%d/%Y %H:%M:%S %Z&quot;&lt;/span&gt;))))
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+The problem with this is that the expression would be evaluated once and this would occur when evaluating the &lt;code&gt;setq&lt;/code&gt; expression. For this reason, this doesn&apos;t do what we are looking for.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org8467dd5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8467dd5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The solution&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;p&gt;
+You can get the desired behavior by modifying the value of the &lt;code&gt;org-keyword-properties&lt;/code&gt; variable.
+&lt;/p&gt;
+
+&lt;p&gt;
+This variable is the one that is automatically updated with the values of the &lt;code&gt;#+PROPERTY&lt;/code&gt; affiliated keyword whenever an Org Mode file is opened.
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-elisp&quot;&gt;(&lt;span style=&quot;color: #a020f0;&quot;&gt;setq&lt;/span&gt; org-keyword-properties
+      &apos;((&lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;HEADER-ARGS:TEXT&quot;&lt;/span&gt; . &lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;:prologue (format-time-string \&quot;%m/%d/%Y %H:%M:%S %Z\&quot;)&quot;&lt;/span&gt;)))
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Of course, this needs more tinkering since if you use &lt;code&gt;setq&lt;/code&gt; on that variable, you would lose the previous content of the variable. Recall that this variable holds all the properties that has been set through the &lt;code&gt;#+PROPERTY&lt;/code&gt; affiliated keyword and is locally set whenever an Org Mode file is opened, so an appropiate modification of that variable is needed.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="english" /><category term="intermediate" /><category term="org mode" /><category term="emacs" /><summary type="html">Table of Contents 1. Some terminology 2. The problem 3. The solution</summary></entry><entry><title type="html">Preguntas de usuarios principiantes de LaTeX</title><link href="https://rdrg109.github.io/blog/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html" rel="alternate" type="text/html" title="Preguntas de usuarios principiantes de LaTeX" /><published>2021-06-19T00:00:00-05:00</published><updated>2021-06-19T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/06/19/preguntas-de-usuarios-principiantes-de-latex</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/06/19/preguntas-de-usuarios-principiantes-de-latex.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;&amp;Iacute;ndice&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
@@ -76,8 +172,8 @@ Veamos un ejemplo simple: Supongamos que tienes el siguiente documento
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org6f47c6a&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/1.png&quot; alt=&quot;1.png&quot; /&gt;
+&lt;div id=&quot;orgc41494f&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/1.png&quot; alt=&quot;1.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -101,8 +197,8 @@ Ahora supongamos que quieres tener mas secciones en tu tabla de contenidos. En e
 &lt;/div&gt;
 
 
-&lt;div id=&quot;orgac1c215&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/2.png&quot; alt=&quot;2.png&quot; /&gt;
+&lt;div id=&quot;org5a64a9a&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/2.png&quot; alt=&quot;2.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -140,8 +236,8 @@ Ahora, veamos que ocurre cuando hacemos que el contenido de nuestro documento se
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org7fe339c&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/3.png&quot; alt=&quot;3.png&quot; /&gt;
+&lt;div id=&quot;orgd2859cf&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/3.png&quot; alt=&quot;3.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -182,8 +278,8 @@ La tabla deber&amp;#237;a mostrarse despu&amp;#233;s de esta l&amp;#237;nea.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org3d95a6c&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/table-incorrect-position.png&quot; alt=&quot;table-incorrect-position.png&quot; /&gt;
+&lt;div id=&quot;org179ef49&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/table-incorrect-position.png&quot; alt=&quot;table-incorrect-position.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -217,8 +313,8 @@ La tabla deber&amp;#237;a mostrarse despu&amp;#233;s de esta l&amp;#237;nea.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;orgad71a78&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/table-correct-position.png&quot; alt=&quot;table-correct-position.png&quot; /&gt;
+&lt;div id=&quot;orgb3476f2&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/table-correct-position.png&quot; alt=&quot;table-correct-position.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -262,8 +358,8 @@ Sí. Mostraré un ejemplo en donde utilizaremos una fuente cualquiera. En vez de
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org24f734a&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/6.png&quot; alt=&quot;6.png&quot; /&gt;
+&lt;div id=&quot;org0e648f6&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/6.png&quot; alt=&quot;6.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -329,8 +425,8 @@ La siguiente lista contiene las fuentes y la página donde las descargué.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org5e39c97&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/4.png&quot; alt=&quot;4.png&quot; /&gt;
+&lt;div id=&quot;org491b263&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/4.png&quot; alt=&quot;4.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -404,8 +500,8 @@ Esto tambi&amp;#233;n es mencionado por &lt;span style=&quot;color: #a020f0;&quo
 &lt;/div&gt;
 
 
-&lt;div id=&quot;orge9a46df&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/5.png&quot; alt=&quot;5.png&quot; /&gt;
+&lt;div id=&quot;orgefe9eb1&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/5.png&quot; alt=&quot;5.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -442,8 +538,8 @@ Sí. Mira el ejemplo de abajo.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;org40c7ec6&quot; class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/foo-1/8.png&quot; alt=&quot;8.png&quot; /&gt;
+&lt;div id=&quot;orge42a864&quot; class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/foo-1/8.png&quot; alt=&quot;8.png&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
