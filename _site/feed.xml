@@ -1,4 +1,295 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://rdrg109.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rdrg109.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-06-24T19:33:45-05:00</updated><id>https://rdrg109.github.io/blog/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">How to use a sexp in the default header arguments of a language in Org Mode</title><link href="https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode.html" rel="alternate" type="text/html" title="How to use a sexp in the default header arguments of a language in Org Mode" /><published>2021-06-24T00:00:00-05:00</published><updated>2021-06-24T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://rdrg109.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rdrg109.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-08-05T22:17:11-05:00</updated><id>https://rdrg109.github.io/blog/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">Alternatives for globally setting a property in an specific Org Mode file</title><link href="https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file.html" rel="alternate" type="text/html" title="Alternatives for globally setting a property in an specific Org Mode file" /><published>2021-08-05T00:00:00-05:00</published><updated>2021-08-05T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id=&quot;text-table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#orgf2afca6&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orge474060&quot;&gt;2. Alternatives&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org4ad0ff3&quot;&gt;2.1. No. 1: Using the &lt;code&gt;PROPERTIES&lt;/code&gt; drawer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org08f1308&quot;&gt;2.2. No. 2: Using the &lt;code&gt;#+PROPERTY&lt;/code&gt; affiliated keyword&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org18753a2&quot;&gt;3. Differences between the alternatives&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#orga13235e&quot;&gt;3.1. Amount of characters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org939bf4c&quot;&gt;3.2. Modification of the values&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgb13194a&quot;&gt;4. Personal thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org10fd525&quot;&gt;5. System information&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org5bdf032&quot;&gt;5.1. Emacs version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org59f5cd1&quot;&gt;5.2. Org Mode version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgf2afca6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf2afca6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+This blog post presents two existing alternatives for globally setting a property in an specific file.
+&lt;/p&gt;
+
+&lt;p&gt;
+I mainly use this for setting the default header arguments for source blocks, but this knowledge can be applied to any property you might be using.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orge474060&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge474060&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Alternatives&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org4ad0ff3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org4ad0ff3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; No. 1: Using the &lt;code&gt;PROPERTIES&lt;/code&gt; drawer&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
+&lt;p&gt;
+If you have never heard of the &lt;code&gt;PROPERTIES&lt;/code&gt; drawer. I recommend you reading &lt;code&gt;(info &quot;(org) Properties and Columns&quot;)&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+This drawer is mostly known because you can use it to set the value of a property for a given subtree (see minimal working example below).
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-org&quot;&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;* First heading&lt;/span&gt;
+&lt;span style=&quot;color: #0000ff;&quot;&gt;:PROPERTIES:&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;:FOO:&lt;/span&gt; one
+&lt;span style=&quot;color: #0000ff;&quot;&gt;:END:&lt;/span&gt;
+
+The value of the &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=foo=&lt;/span&gt; property under this subtree is &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=one=&lt;/span&gt; as can be seen in the value returned by &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=org-entry-get=&lt;/span&gt;.
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_src elisp&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;(org-entry-get nil &lt;/span&gt;&lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;foo&quot;&lt;/span&gt;&lt;span style=&quot;color: #b22222;&quot;&gt;)&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_src&lt;/span&gt;
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+RESULTS:&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_example&lt;/span&gt;
+one
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_example&lt;/span&gt;
+
+&lt;span style=&quot;color: #0000ff;&quot;&gt;* Second heading&lt;/span&gt;
+&lt;span style=&quot;color: #0000ff;&quot;&gt;:PROPERTIES:&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;:FOO:&lt;/span&gt; two
+&lt;span style=&quot;color: #0000ff;&quot;&gt;:END:&lt;/span&gt;
+
+The value of the &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=foo=&lt;/span&gt; property under this subtree is &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=two=&lt;/span&gt; as can be seen in the value returned by &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=org-entry-get=&lt;/span&gt;.
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_src elisp&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;(org-entry-get nil &lt;/span&gt;&lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;foo&quot;&lt;/span&gt;&lt;span style=&quot;color: #b22222;&quot;&gt;)&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_src&lt;/span&gt;
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+RESULTS:&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_example&lt;/span&gt;
+two
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_example&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+In addition to that, this drawer can also be used in the top level of the document to globally set a property.
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-org&quot;&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;:PROPERTIES:&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;:FOO:&lt;/span&gt; one
+&lt;span style=&quot;color: #0000ff;&quot;&gt;:END:&lt;/span&gt;
+
+&lt;span style=&quot;color: #0000ff;&quot;&gt;* First heading&lt;/span&gt;
+
+The value of the &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=foo=&lt;/span&gt; property under this subtree is &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=one=&lt;/span&gt; as can be seen in the value returned by &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=org-entry-get=&lt;/span&gt;.
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_src elisp&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;(org-entry-get nil &lt;/span&gt;&lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;foo&quot;&lt;/span&gt;&lt;span style=&quot;color: #b22222;&quot;&gt; t)&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_src&lt;/span&gt;
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+RESULTS:&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_example&lt;/span&gt;
+one
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_example&lt;/span&gt;
+
+&lt;span style=&quot;color: #0000ff;&quot;&gt;* Second heading&lt;/span&gt;
+
+The value of the &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=foo=&lt;/span&gt; property under this subtree is &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=one=&lt;/span&gt; as can be seen in the value returned by &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=org-entry-get=&lt;/span&gt;.
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_src elisp&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;(org-entry-get nil &lt;/span&gt;&lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;foo&quot;&lt;/span&gt;&lt;span style=&quot;color: #b22222;&quot;&gt; t)&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_src&lt;/span&gt;
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+RESULTS:&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_example&lt;/span&gt;
+one
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_example&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org08f1308&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org08f1308&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; No. 2: Using the &lt;code&gt;#+PROPERTY&lt;/code&gt; affiliated keyword&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
+&lt;p&gt;
+It is also possible to use the &lt;code&gt;#+PROPERTY&lt;/code&gt; affiliated keyword for globally setting a property.
+&lt;/p&gt;
+
+&lt;p&gt;
+When using this affiliated keyword, those lines containing this statement are read whenever an Org Mode file is opened and the key-value pairs are locally stored in the variable &lt;code&gt;org-keyword-properties&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-org&quot;&gt;&lt;span style=&quot;color: #b22222;&quot;&gt;#+PROPERTY: foo one&lt;/span&gt;
+
+&lt;span style=&quot;color: #0000ff;&quot;&gt;* First heading&lt;/span&gt;
+
+The value of the &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=foo=&lt;/span&gt; property under this subtree is &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=one=&lt;/span&gt; as can be seen in the value returned by &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=org-entry-get=&lt;/span&gt;.
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_src elisp&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;(org-entry-get nil &lt;/span&gt;&lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;foo&quot;&lt;/span&gt;&lt;span style=&quot;color: #b22222;&quot;&gt; t)&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_src&lt;/span&gt;
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+RESULTS:&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_example&lt;/span&gt;
+one
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_example&lt;/span&gt;
+
+&lt;span style=&quot;color: #0000ff;&quot;&gt;* Second heading&lt;/span&gt;
+
+The value of the &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=foo=&lt;/span&gt; property under this subtree is &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=one=&lt;/span&gt; as can be seen in the value returned by &lt;span style=&quot;color: #7f7f7f;&quot;&gt;=org-entry-get=&lt;/span&gt;.
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_src elisp&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;(org-entry-get nil &lt;/span&gt;&lt;span style=&quot;color: #8b2252;&quot;&gt;&quot;foo&quot;&lt;/span&gt;&lt;span style=&quot;color: #b22222;&quot;&gt; t)&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_src&lt;/span&gt;
+
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+RESULTS:&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+begin_example&lt;/span&gt;
+one
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+end_example&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org18753a2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org18753a2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Differences between the alternatives&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orga13235e&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orga13235e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; Amount of characters&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
+&lt;p&gt;
+Consider the following equivalent Org Mode files.
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;label class=&quot;org-src-name&quot;&gt;&lt;span class=&quot;listing-number&quot;&gt;Listing 1: &lt;/span&gt;The &lt;code&gt;1.org&lt;/code&gt; file&lt;/label&gt;&lt;pre class=&quot;src src-org&quot;&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;:PROPERTIES:&lt;/span&gt;
+&lt;span style=&quot;color: #a020f0;&quot;&gt;:foo:&lt;/span&gt; 10
+&lt;span style=&quot;color: #a020f0;&quot;&gt;:bar:&lt;/span&gt; 10
+&lt;span style=&quot;color: #a020f0;&quot;&gt;:fizz:&lt;/span&gt; 10
+&lt;span style=&quot;color: #a020f0;&quot;&gt;:buzz:&lt;/span&gt; 10
+&lt;span style=&quot;color: #0000ff;&quot;&gt;:END:&lt;/span&gt;
+
+&lt;span style=&quot;color: #0000ff;&quot;&gt;* My heading&lt;/span&gt;
+
+This is a paragraph.
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;label class=&quot;org-src-name&quot;&gt;&lt;span class=&quot;listing-number&quot;&gt;Listing 2: &lt;/span&gt;The &lt;code&gt;2.org&lt;/code&gt; file&lt;/label&gt;&lt;pre class=&quot;src src-org&quot;&gt;&lt;span style=&quot;color: #b22222;&quot;&gt;#+PROPERTY: foo 10&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+PROPERTY: bar 10&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+PROPERTY: fizz 10&lt;/span&gt;
+&lt;span style=&quot;color: #b22222;&quot;&gt;#+PROPERTY: buzz 10&lt;/span&gt;
+
+&lt;span style=&quot;color: #0000ff;&quot;&gt;* My heading&lt;/span&gt;
+
+This is a paragraph.
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-bash&quot;&gt;wc -m 1.org
+wc -m 2.org
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;pre class=&quot;example&quot; id=&quot;orga175555&quot;&gt;
+64 1.org
+114 2.org
+&lt;/pre&gt;
+
+&lt;p&gt;
+As we can see in the results of &lt;code&gt;wc&lt;/code&gt;, sometimes, the alternative no. 1 requires less characters than the alternative no. 2.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org939bf4c&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org939bf4c&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; Modification of the values&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
+&lt;p&gt;
+When you use alternative no. 2 (the &lt;code&gt;#+PROPERTY&lt;/code&gt; affiliated keyword), Org Mode stores the key-value pairs in &lt;code&gt;org-keyword-properties&lt;/code&gt;. This implies that if you have opened an Org Mode file and you modify a &lt;code&gt;#+PROPERTY&lt;/code&gt; line, the value that Org Mode considers will not be the same that you have recently set. In order to apply the changes, you need to execute &lt;code&gt;org-ctrl-c-ctrl-c&lt;/code&gt; (&lt;code&gt;C-c C-c&lt;/code&gt;) on the &lt;code&gt;#+PROPERTY&lt;/code&gt; line.
+&lt;/p&gt;
+
+&lt;p&gt;
+When you use alternative no. 1 (the &lt;code&gt;PROPERTIES&lt;/code&gt; drawer), there is no need to &lt;code&gt;C-c C-c&lt;/code&gt; on those lines. This happens because the &lt;code&gt;org-entry-get&lt;/code&gt; function considers &lt;code&gt;PROPERTIES&lt;/code&gt; drawers, even when it is used at the top level of the document, so this can be considered an advantage of alternative no. 1 over alternative no. 2.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgb13194a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgb13194a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal thoughts&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;p&gt;
+Personally, I prefer to use alternative no. 1, because I consider the two differences, previously mentioned, advantages of alternative no. 1. So far, I haven&apos;t noticed an advantage of alternative no. 2 over alternative no. 1, so I will keep using alternative no. 1. If you have noticed an advantage, I would really appreciate you let me know.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org10fd525&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org10fd525&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; System information&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org5bdf032&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org5bdf032&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.1&lt;/span&gt; Emacs version&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-bash&quot;&gt;emacs --version
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;pre class=&quot;example&quot; id=&quot;org0dc3c7f&quot;&gt;
+GNU Emacs 27.2
+Copyright (C) 2021 Free Software Foundation, Inc.
+GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+You may redistribute copies of GNU Emacs
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org59f5cd1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org59f5cd1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.2&lt;/span&gt; Org Mode version&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-elisp&quot;&gt;(org-version)
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;pre class=&quot;example&quot; id=&quot;orgc6c644d&quot;&gt;
+9.4.4
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="english" /><category term="intermediate" /><category term="org mode" /><category term="emacs" /><summary type="html">Table of Contents 1. Introduction 2. Alternatives 2.1. No. 1: Using the PROPERTIES drawer 2.2. No. 2: Using the #+PROPERTY affiliated keyword 3. Differences between the alternatives 3.1. Amount of characters 3.2. Modification of the values 4. Personal thoughts 5. System information 5.1. Emacs version 5.2. Org Mode version</summary></entry><entry><title type="html">How to use a sexp in the default header arguments of a language in Org Mode</title><link href="https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode.html" rel="alternate" type="text/html" title="How to use a sexp in the default header arguments of a language in Org Mode" /><published>2021-06-24T00:00:00-05:00</published><updated>2021-06-24T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/06/24/how-to-use-a-sexp-in-the-default-header-arguments-of-a-language-in-org-mode.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;

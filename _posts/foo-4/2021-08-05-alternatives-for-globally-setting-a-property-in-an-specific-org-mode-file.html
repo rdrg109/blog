@@ -1,0 +1,298 @@
+---
+layout: post
+title: Alternatives for globally setting a property in an specific Org Mode file
+tags: [english, intermediate, org mode, emacs]
+---
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgf2afca6">1. Introduction</a></li>
+<li><a href="#orge474060">2. Alternatives</a>
+<ul>
+<li><a href="#org4ad0ff3">2.1. No. 1: Using the <code>PROPERTIES</code> drawer</a></li>
+<li><a href="#org08f1308">2.2. No. 2: Using the <code>#+PROPERTY</code> affiliated keyword</a></li>
+</ul>
+</li>
+<li><a href="#org18753a2">3. Differences between the alternatives</a>
+<ul>
+<li><a href="#orga13235e">3.1. Amount of characters</a></li>
+<li><a href="#org939bf4c">3.2. Modification of the values</a></li>
+</ul>
+</li>
+<li><a href="#orgb13194a">4. Personal thoughts</a></li>
+<li><a href="#org10fd525">5. System information</a>
+<ul>
+<li><a href="#org5bdf032">5.1. Emacs version</a></li>
+<li><a href="#org59f5cd1">5.2. Org Mode version</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf2afca6" class="outline-2">
+<h2 id="orgf2afca6"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+This blog post presents two existing alternatives for globally setting a property in an specific file.
+</p>
+
+<p>
+I mainly use this for setting the default header arguments for source blocks, but this knowledge can be applied to any property you might be using.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge474060" class="outline-2">
+<h2 id="orge474060"><span class="section-number-2">2</span> Alternatives</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+
+<div id="outline-container-org4ad0ff3" class="outline-3">
+<h3 id="org4ad0ff3"><span class="section-number-3">2.1</span> No. 1: Using the <code>PROPERTIES</code> drawer</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+If you have never heard of the <code>PROPERTIES</code> drawer. I recommend you reading <code>(info "(org) Properties and Columns")</code>.
+</p>
+
+<p>
+This drawer is mostly known because you can use it to set the value of a property for a given subtree (see minimal working example below).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-org"><span style="color: #0000ff;">* First heading</span>
+<span style="color: #0000ff;">:PROPERTIES:</span>
+<span style="color: #a020f0;">:FOO:</span> one
+<span style="color: #0000ff;">:END:</span>
+
+The value of the <span style="color: #7f7f7f;">=foo=</span> property under this subtree is <span style="color: #7f7f7f;">=one=</span> as can be seen in the value returned by <span style="color: #7f7f7f;">=org-entry-get=</span>.
+
+<span style="color: #b22222;">#+begin_src elisp</span>
+<span style="color: #b22222;">(org-entry-get nil </span><span style="color: #8b2252;">"foo"</span><span style="color: #b22222;">)</span>
+<span style="color: #b22222;">#+end_src</span>
+
+<span style="color: #b22222;">#+RESULTS:</span>
+<span style="color: #b22222;">#+begin_example</span>
+one
+<span style="color: #b22222;">#+end_example</span>
+
+<span style="color: #0000ff;">* Second heading</span>
+<span style="color: #0000ff;">:PROPERTIES:</span>
+<span style="color: #a020f0;">:FOO:</span> two
+<span style="color: #0000ff;">:END:</span>
+
+The value of the <span style="color: #7f7f7f;">=foo=</span> property under this subtree is <span style="color: #7f7f7f;">=two=</span> as can be seen in the value returned by <span style="color: #7f7f7f;">=org-entry-get=</span>.
+
+<span style="color: #b22222;">#+begin_src elisp</span>
+<span style="color: #b22222;">(org-entry-get nil </span><span style="color: #8b2252;">"foo"</span><span style="color: #b22222;">)</span>
+<span style="color: #b22222;">#+end_src</span>
+
+<span style="color: #b22222;">#+RESULTS:</span>
+<span style="color: #b22222;">#+begin_example</span>
+two
+<span style="color: #b22222;">#+end_example</span>
+</pre>
+</div>
+
+<p>
+In addition to that, this drawer can also be used in the top level of the document to globally set a property.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-org"><span style="color: #0000ff;">:PROPERTIES:</span>
+<span style="color: #a020f0;">:FOO:</span> one
+<span style="color: #0000ff;">:END:</span>
+
+<span style="color: #0000ff;">* First heading</span>
+
+The value of the <span style="color: #7f7f7f;">=foo=</span> property under this subtree is <span style="color: #7f7f7f;">=one=</span> as can be seen in the value returned by <span style="color: #7f7f7f;">=org-entry-get=</span>.
+
+<span style="color: #b22222;">#+begin_src elisp</span>
+<span style="color: #b22222;">(org-entry-get nil </span><span style="color: #8b2252;">"foo"</span><span style="color: #b22222;"> t)</span>
+<span style="color: #b22222;">#+end_src</span>
+
+<span style="color: #b22222;">#+RESULTS:</span>
+<span style="color: #b22222;">#+begin_example</span>
+one
+<span style="color: #b22222;">#+end_example</span>
+
+<span style="color: #0000ff;">* Second heading</span>
+
+The value of the <span style="color: #7f7f7f;">=foo=</span> property under this subtree is <span style="color: #7f7f7f;">=one=</span> as can be seen in the value returned by <span style="color: #7f7f7f;">=org-entry-get=</span>.
+
+<span style="color: #b22222;">#+begin_src elisp</span>
+<span style="color: #b22222;">(org-entry-get nil </span><span style="color: #8b2252;">"foo"</span><span style="color: #b22222;"> t)</span>
+<span style="color: #b22222;">#+end_src</span>
+
+<span style="color: #b22222;">#+RESULTS:</span>
+<span style="color: #b22222;">#+begin_example</span>
+one
+<span style="color: #b22222;">#+end_example</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org08f1308" class="outline-3">
+<h3 id="org08f1308"><span class="section-number-3">2.2</span> No. 2: Using the <code>#+PROPERTY</code> affiliated keyword</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+It is also possible to use the <code>#+PROPERTY</code> affiliated keyword for globally setting a property.
+</p>
+
+<p>
+When using this affiliated keyword, those lines containing this statement are read whenever an Org Mode file is opened and the key-value pairs are locally stored in the variable <code>org-keyword-properties</code>.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-org"><span style="color: #b22222;">#+PROPERTY: foo one</span>
+
+<span style="color: #0000ff;">* First heading</span>
+
+The value of the <span style="color: #7f7f7f;">=foo=</span> property under this subtree is <span style="color: #7f7f7f;">=one=</span> as can be seen in the value returned by <span style="color: #7f7f7f;">=org-entry-get=</span>.
+
+<span style="color: #b22222;">#+begin_src elisp</span>
+<span style="color: #b22222;">(org-entry-get nil </span><span style="color: #8b2252;">"foo"</span><span style="color: #b22222;"> t)</span>
+<span style="color: #b22222;">#+end_src</span>
+
+<span style="color: #b22222;">#+RESULTS:</span>
+<span style="color: #b22222;">#+begin_example</span>
+one
+<span style="color: #b22222;">#+end_example</span>
+
+<span style="color: #0000ff;">* Second heading</span>
+
+The value of the <span style="color: #7f7f7f;">=foo=</span> property under this subtree is <span style="color: #7f7f7f;">=one=</span> as can be seen in the value returned by <span style="color: #7f7f7f;">=org-entry-get=</span>.
+
+<span style="color: #b22222;">#+begin_src elisp</span>
+<span style="color: #b22222;">(org-entry-get nil </span><span style="color: #8b2252;">"foo"</span><span style="color: #b22222;"> t)</span>
+<span style="color: #b22222;">#+end_src</span>
+
+<span style="color: #b22222;">#+RESULTS:</span>
+<span style="color: #b22222;">#+begin_example</span>
+one
+<span style="color: #b22222;">#+end_example</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org18753a2" class="outline-2">
+<h2 id="org18753a2"><span class="section-number-2">3</span> Differences between the alternatives</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+
+<div id="outline-container-orga13235e" class="outline-3">
+<h3 id="orga13235e"><span class="section-number-3">3.1</span> Amount of characters</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Consider the following equivalent Org Mode files.
+</p>
+
+<div class="org-src-container">
+<label class="org-src-name"><span class="listing-number">Listing 1: </span>The <code>1.org</code> file</label><pre class="src src-org"><span style="color: #0000ff;">:PROPERTIES:</span>
+<span style="color: #a020f0;">:foo:</span> 10
+<span style="color: #a020f0;">:bar:</span> 10
+<span style="color: #a020f0;">:fizz:</span> 10
+<span style="color: #a020f0;">:buzz:</span> 10
+<span style="color: #0000ff;">:END:</span>
+
+<span style="color: #0000ff;">* My heading</span>
+
+This is a paragraph.
+</pre>
+</div>
+
+<div class="org-src-container">
+<label class="org-src-name"><span class="listing-number">Listing 2: </span>The <code>2.org</code> file</label><pre class="src src-org"><span style="color: #b22222;">#+PROPERTY: foo 10</span>
+<span style="color: #b22222;">#+PROPERTY: bar 10</span>
+<span style="color: #b22222;">#+PROPERTY: fizz 10</span>
+<span style="color: #b22222;">#+PROPERTY: buzz 10</span>
+
+<span style="color: #0000ff;">* My heading</span>
+
+This is a paragraph.
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-bash">wc -m 1.org
+wc -m 2.org
+</pre>
+</div>
+
+<pre class="example" id="orga175555">
+64 1.org
+114 2.org
+</pre>
+
+<p>
+As we can see in the results of <code>wc</code>, sometimes, the alternative no. 1 requires less characters than the alternative no. 2.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org939bf4c" class="outline-3">
+<h3 id="org939bf4c"><span class="section-number-3">3.2</span> Modification of the values</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+When you use alternative no. 2 (the <code>#+PROPERTY</code> affiliated keyword), Org Mode stores the key-value pairs in <code>org-keyword-properties</code>. This implies that if you have opened an Org Mode file and you modify a <code>#+PROPERTY</code> line, the value that Org Mode considers will not be the same that you have recently set. In order to apply the changes, you need to execute <code>org-ctrl-c-ctrl-c</code> (<code>C-c C-c</code>) on the <code>#+PROPERTY</code> line.
+</p>
+
+<p>
+When you use alternative no. 1 (the <code>PROPERTIES</code> drawer), there is no need to <code>C-c C-c</code> on those lines. This happens because the <code>org-entry-get</code> function considers <code>PROPERTIES</code> drawers, even when it is used at the top level of the document, so this can be considered an advantage of alternative no. 1 over alternative no. 2.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb13194a" class="outline-2">
+<h2 id="orgb13194a"><span class="section-number-2">4</span> Personal thoughts</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Personally, I prefer to use alternative no. 1, because I consider the two differences, previously mentioned, advantages of alternative no. 1. So far, I haven't noticed an advantage of alternative no. 2 over alternative no. 1, so I will keep using alternative no. 1. If you have noticed an advantage, I would really appreciate you let me know.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org10fd525" class="outline-2">
+<h2 id="org10fd525"><span class="section-number-2">5</span> System information</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+
+<div id="outline-container-org5bdf032" class="outline-3">
+<h3 id="org5bdf032"><span class="section-number-3">5.1</span> Emacs version</h3>
+<div class="outline-text-3" id="text-5-1">
+<div class="org-src-container">
+<pre class="src src-bash">emacs --version
+</pre>
+</div>
+
+<pre class="example" id="org0dc3c7f">
+GNU Emacs 27.2
+Copyright (C) 2021 Free Software Foundation, Inc.
+GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+You may redistribute copies of GNU Emacs
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org59f5cd1" class="outline-3">
+<h3 id="org59f5cd1"><span class="section-number-3">5.2</span> Org Mode version</h3>
+<div class="outline-text-3" id="text-5-2">
+<div class="org-src-container">
+<pre class="src src-elisp">(org-version)
+</pre>
+</div>
+
+<pre class="example" id="orgc6c644d">
+9.4.4
+</pre>
+</div>
+</div>
+</div>
