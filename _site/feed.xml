@@ -1,4 +1,575 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://rdrg109.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rdrg109.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-08-05T22:17:11-05:00</updated><id>https://rdrg109.github.io/blog/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">Alternatives for globally setting a property in an specific Org Mode file</title><link href="https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file.html" rel="alternate" type="text/html" title="Alternatives for globally setting a property in an specific Org Mode file" /><published>2021-08-05T00:00:00-05:00</published><updated>2021-08-05T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://rdrg109.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rdrg109.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-08-07T15:02:21-05:00</updated><id>https://rdrg109.github.io/blog/feed.xml</id><title type="html">Rodrigo Morales</title><subtitle>Personal site</subtitle><entry><title type="html">ACM Turing Award playlists as a learning resource for Computer Scientists</title><link href="https://rdrg109.github.io/blog/2021/08/07/acm-interviews.html" rel="alternate" type="text/html" title="ACM Turing Award playlists as a learning resource for Computer Scientists" /><published>2021-08-07T00:00:00-05:00</published><updated>2021-08-07T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/08/07/acm-interviews</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/08/07/acm-interviews.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id=&quot;text-table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc6da629&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org2261508&quot;&gt;2. Youtube playlists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#next&quot;&gt;3. Table of views for each playlist&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#orgf77cf22&quot;&gt;3.1. ACM A.M. Turing Award Laureate Interviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orge899171&quot;&gt;3.2. ACM A.M. Turing Award Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#personal-thoughts&quot;&gt;4. Personal thoughts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org2ee9633&quot;&gt;4.1. Movitation for creating this blog post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#usefulness-of-the-videos&quot;&gt;4.2. Usefulness of the videos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgc6da629&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc6da629&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+This blog post presents two Youtube playlists which I find valuable for someone whose major is Computer Science.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org2261508&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org2261508&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Youtube playlists&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;p&gt;
+The Youtube playlists, which I&apos;d like to share, are published by the Association for Computing Machinery (ACM) and they are presented below
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&quot;&gt;ACM A.M. Turing Award Laureate Interviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&quot;&gt;ACM A.M. Turing Award Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+I&apos;ve noticed that there are some videos which contain very few visits. Because of this, the &lt;a href=&quot;#next&quot;&gt;next&lt;/a&gt; section presents a table which shows the number of views, number of likes, number of dislikes for each video in those playlists. The &lt;a href=&quot;#usefulness-of-the-videos&quot;&gt;Usefulness of the videos&lt;/a&gt; section under the &lt;a href=&quot;#personal-thoughts&quot;&gt;Personal thoughts&lt;/a&gt; section presents my thoughts on why I think these playlists are valuable.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-next&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;next&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Table of views for each playlist&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-next&quot;&gt;
+&lt;p&gt;
+The data for both playlists was extracted using the &lt;code&gt;youtube_dl&lt;/code&gt; Python module in &lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;[2021-08-07 Sat 12:57]&lt;/span&gt;&lt;/span&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgf77cf22&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgf77cf22&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; ACM A.M. Turing Award Laureate Interviews&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
+&lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
+
+
+&lt;colgroup&gt;
+&lt;col  class=&quot;org-left&quot; /&gt;
+
+&lt;col  class=&quot;org-right&quot; /&gt;
+
+&lt;col  class=&quot;org-right&quot; /&gt;
+
+&lt;col  class=&quot;org-right&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-left&quot;&gt;Video&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-right&quot;&gt;No. views&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-right&quot;&gt;No. dislikes&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-right&quot;&gt;No. likes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l_wyFxwkZJc&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=42&quot;&gt;Dana S Scott, 1976 ACM Turing Award Recipient - Part 3 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;14&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=E31qtmAuaVU&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=43&quot;&gt;Dana S Scott,  1976 ACM Turing Award Recipient - Part 4 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;35&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=M2yXOfwo-vc&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=41&quot;&gt;Dana S Scott, 1976 ACM Turing Award Recipient - Part 2 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;43&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mYUlmIN1G_4&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=39&quot;&gt;Barbara Liskov, 2008 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;63&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vkjOcGNgQtk&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=12&quot;&gt;Ed Feigenbaum, 1994 ACM Turing Award Recipient - Part 2 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;64&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=D9T3QaKupo8&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=13&quot;&gt;Ed Feigenbaum, 1994  ACM Turing Award Recipient - Part 3 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;71&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=TZ5LFuj75rw&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=14&quot;&gt;Ed Feigenbaum, 1994 ACM Turing Award Recipient - Part 4 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;80&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=pzmchFaZebs&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=32&quot;&gt;Richard E Stearns, 1993 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;94&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=OHHmuU_eRg0&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=40&quot;&gt;Dana S Scott,  1976 ACM Turing Award Recipient - Part 1 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;116&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=N2WyH9Ochxo&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=11&quot;&gt;Ed Feigenbaum, 1994 ACM Turing Award Recipient - Part 1 of 4&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;131&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jByIpJNrm50&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=29&quot;&gt;Charles W. Bachman, 1973 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;187&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zDKljdOykro&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=18&quot;&gt;Leslie Lamport, 2013 ACM Turing Award Recipient - Part 1&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;246&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=pprmQ-2Ai2Q&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=28&quot;&gt;Juris Hartmanis, 1993 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;268&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=c_j8Y47HoxE&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=20&quot;&gt;Ron Rivest, 2002 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;344&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hCe0ZPGap_k&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=38&quot;&gt;Allen Newell, 1975 ACM A. M. Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;382&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hxDXwG6h32s&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=19&quot;&gt;Leslie Lamport, 2013  ACM Turing Award Recipient -  Part 2&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;398&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8shcAIJne-Q&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=35&quot;&gt;E. Allen Emerson, 2007 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;493&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ydYowmPaZRw&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=21&quot;&gt;Martin Hellman,  2015 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;547&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qgLIoQWOPZ0&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=36&quot;&gt;Joseph Sifakis, 2007 A.M. Turing Award Laureate Interview&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;682&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=F-boZa-n6Mo&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=33&quot;&gt;Leslie G.Valiant , 2010 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;704&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;14&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6msRtLtfzeA&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=17&quot;&gt;Don Knuth, 1974  ACM Turing Award Recipient - Part 2&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;710&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;17&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=U3eo49nVxcA&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=15&quot;&gt;Jim Gray, 1998 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;717&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=smrs6FfnCzs&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=8&quot;&gt;William Kahan, 1989 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;736&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;16&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CEx23EGGP9k&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=30&quot;&gt;John E. Hopcroft, 1986  ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;794&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=m5LoMHVkrkE&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=27&quot;&gt;Fernando J (Corby) Corbató, 1990 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;885&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;14&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hbv11XLc2lw&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=24&quot;&gt;Manuel Blum, 1995 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;908&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qOXBU2xYGoI&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=22&quot;&gt;Silvio Micali,  2012 ACM A.M. Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1046&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;18&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oilK7mXVwl8&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=5&quot;&gt;Fran Allen, 2006 recipient of the ACM Turing Award&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1049&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=lS7zNbB-XfI&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=9&quot;&gt;Michael Stonebraker, 2014 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1093&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hBPSKyfULnQ&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=34&quot;&gt;Whitfield Diffie, 2015  ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1415&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=yKXiQAqou04&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=10&quot;&gt;Dr. John Backus, 1977 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1514&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=L3FZzGU3n14&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=2&quot;&gt;Michael Rabin, 1976 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1518&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;2&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ul0dbgs8Mdk&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=37&quot;&gt;Frederick (“Fred”) Brooks, 1999 A.M. Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1641&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;58&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3t42E44d5aY&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=26&quot;&gt;Robert E Tarjan, 1986 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1898&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;52&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JQr0LFvR1OE&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=7&quot;&gt;Judea Pearl, 2011 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;2360&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;56&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Uc-F0N2hwKE&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=6&quot;&gt;Stephen Cook, 1982 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3275&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;59&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=K06hOhABP-Y&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=4&quot;&gt;Len Adleman, 2002 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3456&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;2&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;72&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6e2k0339lkI&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=25&quot;&gt;Shafi Goldwasser, 2012 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;4391&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;81&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=h99ryGYGnc0&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=31&quot;&gt;Dabbala Rajagopal (Raj) Reddy, 1994 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;4613&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;151&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SUgrS_KbSI8&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=23&quot;&gt;Niklaus Wirth, 1984 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;5337&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;147&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=O6By99JW_V8&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=3&quot;&gt;Barbara Liskov, 2008 ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;5412&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;135&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vUJ01nRE7r0&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=16&quot;&gt;Don Knuth ,1974  ACM Turing Award Recipient - Part 1&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;6630&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;135&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tAl6wzDTrJA&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=1&quot;&gt;Tony Hoare, 1980  ACM Turing Award Recipient&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;10184&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;173&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orge899171&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orge899171&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; ACM A.M. Turing Award Lectures&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
+&lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
+
+
+&lt;colgroup&gt;
+&lt;col  class=&quot;org-left&quot; /&gt;
+
+&lt;col  class=&quot;org-right&quot; /&gt;
+
+&lt;col  class=&quot;org-right&quot; /&gt;
+
+&lt;col  class=&quot;org-right&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-left&quot;&gt;Video&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-right&quot;&gt;No. views&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-right&quot;&gt;No. dislikes&lt;/th&gt;
+&lt;th scope=&quot;col&quot; class=&quot;org-right&quot;&gt;No. likes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tdeBgObe-Uc&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=10&quot;&gt;Joseph Sifakis, 2007 ACM A.M. Turing Award Lecture, &quot;The Quest for Correctness Beyond Verification&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;426&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=aC1a4ZFwTMo&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=16&quot;&gt;Leonard Adleman 2002 ACM A.M. Turing Awards Lecture, &quot;Pre-RSA Days: History and Lessons&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;523&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=NqqukNkoEVo&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=17&quot;&gt;Ronald L. Rivest 2002 ACM A.M. Turing Award Lecture, &quot;The Early Days of RSA: History and Lessons&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;608&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KUHaLQFJ6Cc&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=18&quot;&gt;Adi Shamir 2002 ACM A.M. Turing Award Lecture, &quot;Cryptography: State of the Science&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1331&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;11.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JLAfLWE76fE&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=14&quot;&gt;Robert E. Kahn and Vinton Cerf 2004 ACM A.M. Turing Award Lecture&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1335&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;2.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;20.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ICfH72lG8QE&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=4&quot;&gt;ACM President Alexander L. Wolf announces the recipients of the 2015 ACM A.M. Turing Award&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1645&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;21.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9vNax7GLFTI&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=8&quot;&gt;E. Allen Emerson, 2007, ACM A.M. Turing Award Lecture &quot;Model checking: A Personal Perspective&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1662&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;17.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=NjoU-MjCws4&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=12&quot;&gt;Frances Allen, 2006, ACM A.M. Turing Award Lecture, &quot;Compiling for Performance: A Personal Tour&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1956&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;39.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QVhQSINWml8&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=7&quot;&gt;Charles P. Thacker 2009 ACM A.M. Turing Award Lecture &quot;Improving The Future by Examining The Past&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;2412&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;1.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;7.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mYivRwrATTA&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=13&quot;&gt;Peter Naur 2005 ACM A.M. Turing Award Lecture, &quot;Computing vs. Human Thinking&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3798&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;20.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iNm4nFBFmvo&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=6&quot;&gt;Judea Pearl, 2012 ACM A.M. Turing Award Lecture &quot;The Mechanization of Causal Inference&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;4325&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;85.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BaMa4u4Fio4&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=3&quot;&gt;Sir Tim Berners-Lee 2016 ACM A.M. Turing Lecture &quot;What is the World Wide Web &amp;amp; what is its future?&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;6241&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;3.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;86.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=I1lf2MBy3J4&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=9&quot;&gt;Edmund M. Clarke, 2007, ACM A.M. Turing Award Lecture &quot;Model checking&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;6967&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;74.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ymF94cFfzUQ&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=15&quot;&gt;Alan Kay 2003 ACM A.M. Turing Award Lecture&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;8053&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;0.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;76.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BbGeKi6T6QI&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=5&quot;&gt;Michael Stonebraker 2014 ACM A.M. Turing Award Lecture&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;12420&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;2.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;161.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qAKrMdUycb8&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=11&quot;&gt;Barbara Liskov, 2007 ACM A.M. Turing Award Lecture &quot;The Power of Abstraction&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;13900&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;6.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;267.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VsnQf7exv5I&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=1&quot;&gt;Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture &quot;The Deep Learning Revolution&quot;&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;42460&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;nan&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;nan&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class=&quot;org-left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3LVeEjsn8Ts&amp;amp;list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&amp;amp;index=2&quot;&gt;John Hennessy and David Patterson 2017 ACM A.M. Turing Award Lecture&lt;/a&gt;&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;56178&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;13.0&lt;/td&gt;
+&lt;td class=&quot;org-right&quot;&gt;820.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-personal-thoughts&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;personal-thoughts&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal thoughts&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-personal-thoughts&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org2ee9633&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org2ee9633&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.1&lt;/span&gt; Movitation for creating this blog post&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-1&quot;&gt;
+&lt;p&gt;
+I&apos;ve mainly created this blog post to share this Youtube playlist with my colleagues (undergraduate computer science students) and because I felt that some of those videos need to have more attention, since some of them have less than 100 visits.
+&lt;/p&gt;
+
+&lt;p&gt;
+I noticed that some of the videos had very few visits when I recalled that I had watched an interview to D. Knuth. I started searching that video, found it on Youtube, and then Youtube recommended &lt;a href=&quot;https://www.youtube.com/watch?v=mYUlmIN1G_4&amp;amp;list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&amp;amp;index=40&quot;&gt;this&lt;/a&gt; video to Barbara Liskov which only has 64 views, so I asked myself: How is it come that a video of an interview to someone which have made a great contribution to the Computer Science community has very few views?
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-usefulness-of-the-videos&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;usefulness-of-the-videos&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.2&lt;/span&gt; Usefulness of the videos&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-usefulness-of-the-videos&quot;&gt;
+&lt;p&gt;
+The videos at the &quot;ACM A.M. Turing Award Lectures&quot; &lt;a href=&quot;https://www.youtube.com/playlist?list=PLn0nrSd4xjjYCkOxtYqozyDuwt-4sC2L6&quot;&gt;playlist&lt;/a&gt; are useful because the lecture is given by someone which has won a Turing Award, so their explanation might provide useful information not only on the topic but in the Computer Science area
+&lt;/p&gt;
+
+&lt;p&gt;
+The videos at the &quot;ACM A.M. Turing Award Laureate Interviews&quot; &lt;a href=&quot;https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&quot;&gt;playlist&lt;/a&gt; are useful because you get to know a winner of a Turing Award to a deeper extent which might be of help when taking decisions in your Computer Science career. I mention this because in the interviews I&apos;ve watched, Donald Knuth and Barbara Liskov, they mention some of the personal decisions they made in their lives.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="english" /><category term="computer science" /><summary type="html">Table of Contents 1. Introduction 2. Youtube playlists 3. Table of views for each playlist 3.1. ACM A.M. Turing Award Laureate Interviews 3.2. ACM A.M. Turing Award Lectures 4. Personal thoughts 4.1. Movitation for creating this blog post 4.2. Usefulness of the videos</summary></entry><entry><title type="html">Alternatives for globally setting a property in an specific Org Mode file</title><link href="https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file.html" rel="alternate" type="text/html" title="Alternatives for globally setting a property in an specific Org Mode file" /><published>2021-08-05T00:00:00-05:00</published><updated>2021-08-05T00:00:00-05:00</updated><id>https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file</id><content type="html" xml:base="https://rdrg109.github.io/blog/2021/08/05/alternatives-for-globally-setting-a-property-in-an-specific-org-mode-file.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
